@@ -6,6 +6,7 @@ window.addEventListener("mousemove", cursor );
 function cursor(e){
     cursordiv.style.top=e.screenY+"px";
     cursordiv.style.left=e.screenX+"px";
+    console.log("The mouse is moving. now test your cursor");
 }
 
 navs.forEach(link=>{
