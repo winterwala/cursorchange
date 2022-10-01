@@ -45,8 +45,8 @@ li{
 }
 .cursor{
     border: 2px solid black;
-    width: 25px;
-    height: 25px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     position: absolute;
     z-index: 5;
