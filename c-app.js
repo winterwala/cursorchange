@@ -5,8 +5,8 @@ const navsb = document.querySelectorAll(".navbar li");
 window.addEventListener("mousemove", cursor );
 
 function cursor(e){
-    cursordiv.style.top=e.screenY+"px";
-    cursordiv.style.left=e.screenX+"px";
+    cursordiv.style.top=e.clientY+"px";
+    cursordiv.style.left=e.clientX+"px";
     console.log("The mouse is moving. now test your cursor");
 }
 
