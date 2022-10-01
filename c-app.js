@@ -1,5 +1,6 @@
 const cursordiv = document.querySelector(".cursor");
-const navs = document.querySelectorAll(".navbar li");
+//selecting navs
+const navsb = document.querySelectorAll(".navbar li");
 
 window.addEventListener("mousemove", cursor );
 
